@@ -12,10 +12,10 @@
     <form action="results.html" method="GET">
     
     <label>Voornaam</label>
-    <input type="text" name="voornaam" id="voornaam" required>
+    <input type="text" name="voornaam" id="voornaam" pattern="[a-zA-Z]" required>
 <br>
     <label>Achternaam</label>
-    <input type="text" name="achternaam" id="achternaam" required>
+    <input type="text" name="achternaam" id="achternaam" pattern="[a-zA-Z]" required>
     <br>
     <label for="email">E-mail</label>
     <input type="email" name="email" id="email" required>
@@ -27,9 +27,9 @@
 <br>
 <br>
         <label>Geslacht:</label>
-        <input type="radio" name="geslacht" id="man" value="man">
+        <input type="radio" name="geslacht" id="man" checked="checked">
         <label for="man">Man</label>
-        <input type="radio" name="geslacht" id="vrouw" value="vrouw">
+        <input type="radio" name="geslacht" id="vrouw">
         <label for="vrouw">Vrouw</label>
 <br>
 <br>
@@ -47,7 +47,7 @@
 <br>
 
         <label for="BSN-nummer">BSN-nummer</label>
-        <input type="number" name="BSN-nummer" id="BSN-nummer" max="999999999">
+        <input type="number" name="BSN-nummer" id="BSN-nummer" pattern=".{9,}" min="000000000" max="999999999">
 <br>
         <label for="vakantieland">Vakantieland selecteren</label>
         <select name="Vakantieland" id="vakantieland" required>
@@ -60,7 +60,7 @@
         </select>
 <br>
         <label for="date">Vertrek datum</label>
-        <input type="date" name="vertrek datum" id="vertrek datum" required>
+        <input type="date" name="vertrek datum" id="vertrek datum" min="2022-09-08" required>
 <br>
         <label for="date">Terugkomst datum</label>
         <input type="date" name="terugkomst datum" id="terugkomst datum" required>
