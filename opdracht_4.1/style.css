@@ -1,14 +1,18 @@
 h1 {
     color: blue;
     size: 24px;
+    font-style: italic;
+    font-weight: bold;
 }
 h2 {
     color: #0000ff;
     size: 20px;
+    font-weight: bold;
 }
 h3 {
     color: teal;
     size: 16px;
+    font-weight: bold;
 }
 h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
@@ -16,9 +20,10 @@ h1,h2,h3,h4,h5,h6 {
 p {
     color: #4D4D4D;
 }
-.biem {
-    font-style: italic;
+.dik {
+    font-weight: bold;
 }
-p {
-    color: #afafaf;
+a {
+    color: #8A2BE2;
+    text-decoration: none;
 }
