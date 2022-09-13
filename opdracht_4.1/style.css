@@ -1,3 +1,4 @@
+
 h1 {
     color: blue;
     size: 24px;
@@ -12,6 +13,7 @@ h2 {
 h3 {
     color: teal;
     size: 16px;
+    
     font-weight: bold;
 }
 h1,h2,h3,h4,h5,h6 {
