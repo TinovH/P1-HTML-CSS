@@ -1,23 +1,27 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-ul {
-    list-style-type: none;
-    background-color: white;
-    overflow: hidden;
+#main-nav a {
+  color: #0720e8;
+  display: block;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  transition: background 0.4s;
 }
 
-li {
-    float: left;
+#main-nav ul {
+  list-style: none;
+  display: flex;
 }
 
-li a {
-    color: #0720e8;
-    text-decoration: none;
-    text-align: center;
-    padding: 0.8rem 1rem;
-    display: inline-block;
+#main-nav li {
+  width: 100%;
+  text-align: center;
+  position: relative;
 }
