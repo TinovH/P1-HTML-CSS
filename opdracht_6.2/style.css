@@ -2,7 +2,6 @@ html {
     font-size: 62.5%;
 }
 
-
 .container {
     position: relative;
     width: 120rem;
@@ -19,26 +18,26 @@ html {
 }
 
 .block1 {
-    width: 20rem;
-    height: 20rem;
+    width: 200vw;
+    height: 200vh;
     background-color: #0822f8;
 
 }
 
 .block2 {
-    width: 20rem;
-    height: 20rem;
+    width: 200vw;
+    height: 200vh;
     background-color: #000000;
 }
 
 .block3 {
-    width: 20rem;
-    height: 20rem;
+    width: 200vw;
+    height: 200vh;
     background-color: #fe0b00;
 }
 
 .block4 {
-    width: 20rem;
-    height: 20rem;
+    width: 200vw;
+    height: 200vh;
     background-color: #007e1c;
 }

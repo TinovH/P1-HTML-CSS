@@ -6,22 +6,26 @@
 
 #main-nav a {
   color: #0720e8;
-  display: block;
-  height: 64px;
+  position: relative;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
   text-decoration: none;
-  transition: background 0.4s;
 }
 
-#main-nav ul {
+ul {
   list-style: none;
   display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0 10% 0 10%;
 }
 
-#main-nav li {
-  width: 100%;
+li {
   text-align: center;
+
   position: relative;
+}
+
+.middle {
+    display: flex;
+    gap: 10px;
 }
