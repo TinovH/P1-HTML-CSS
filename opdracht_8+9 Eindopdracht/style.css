@@ -1,6 +1,68 @@
 /*Telefoon*/
-@media only screen and (max-width: 480px) {
-    
+@media only screen and (max-width: 920px) {
+    nav{
+        flex-direction: column;
+        padding-left: 0 !important;
+    }
+    nav p{
+        padding-left: 4rem !important;
+        text-align: center;
+    }
+    ul{
+        padding: 0 0 1.5rem 0 !important;
+    }
+
+    .two{
+        padding-left: 1rem !important;
+        padding-right: 17rem !important;
+    }
+    .two p{
+        padding: 0 !important;
+    }
+
+    .three{
+        padding-left: 2rem !important;
+    }
+    .three p{
+        padding: 0.5rem 5rem 0 5rem !important;
+    }
+
+
+    .fourdot{
+        width: 70vw !important;
+        height: 45vh !important;
+    }
+    .fourdot p{
+        padding: 0 2rem 0 2rem !important;
+    }
+    .fourdot span{
+        height: 8vh !important;
+        padding-top: 1.2rem !important;
+    }
+    .four{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .five form{
+        width: 95vw !important;
+    }
+    .five input {
+        padding:  1rem 10rem !important;
+    }
+
+    footer {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    footer p{
+        padding-left: 7rem !important;
+        padding-bottom: 1rem !important;
+    }
+    .footerdot{
+        width: 90vw !important;
+        padding-left: 5rem !important;
+    }
 }
 
 
@@ -50,6 +112,7 @@ li a{
     background-image: url("./img/landing-page.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     width: 100vw;
     height: 100vh;
     flex-direction: column;
@@ -81,7 +144,7 @@ li a{
     background-image: url("./img/new-york-page.png"), linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(114, 114, 114) 100%);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     width: 100vw;
     height: 100vh;
     flex-direction: column;
@@ -120,8 +183,8 @@ li a{
 }
 .fourdot {
     position: relative;
-    width: 20rem;
-    height: 25rem;
+    width: 25vw;
+    height: 40vh;
     text-align: center;
     font-size: 1.5rem;
     box-shadow: 0.5rem 0.5rem 1.5rem 0.5rem #0000002f;
@@ -136,6 +199,9 @@ li a{
 .fourdot span img {
     object-fit: contain;
     height: 2.5rem;
+}
+.fourdot p {
+    padding-left: 1rem;
 }
 .fourdot h2 {
     padding: 2rem 0 4rem 0;
@@ -165,7 +231,7 @@ li a{
     padding: 0;
     padding-top: 3rem;
     font-size: 1.8rem;
-    border-radius: 2.5rem 2.5rem 0 0;
+    border-radius: 2.5rem;
 
 }
 .fivedot {
@@ -198,4 +264,9 @@ footer {
     background-color: #131c27;
     color: white;
     font-size: 1.5rem;
+}
+.footerdot {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
 }
