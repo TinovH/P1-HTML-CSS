@@ -1,68 +1,3 @@
-/*Telefoon*/
-@media only screen and (max-width: 480px) {
-    .block1 {
-        background-color: #6674E6 !important;
-        color: white;
-    }
-    .block2 {
-        background-color: #77CFE3 !important;
-        color: white;
-    }
-    .block3 {
-        background-color: #EB6FFF !important;
-        color: white;
-    }
-    .block4 {
-        background-color: #2F376D !important;
-        color: white;
-    }
-    .dropdown {
-        display: block !important;
-    }
-}
-
-
-/*Tablet*/
-@media only screen and (min-width: 480px)
-and (max-width: 1024px){
-    .block1 {
-        background-color: #FF7C80 !important;
-        color: white;
-    }
-    .block2 {
-        background-color: #FF5956 !important;
-        color: white;
-    }
-    .block3 {
-        background-color: #525CF4 !important;
-        color: white;
-    }
-    .block4 {
-        background-color: #344CFF !important;
-        color: white;
-    }
-}
-
-/*desktop*/
-@media only screen and (min-width: 1025px){
-    .block1 {
-        background-color: #F75D49 !important;
-        color: white;
-    }
-    .block2 {
-        background-color: #FFC61C !important;
-
-    }
-    .block3 {
-        background-color: #FA9625 !important;
-
-    }
-    .block4 {
-        background-color: #65A34B !important;
-
-    }
-}
-
 html {
     font-size: 62.5%;
 }
@@ -106,4 +41,50 @@ body {
     position: absolute;
     background-color: white;
     display: none;
+}
+
+
+/*Telefoon*/
+@media only screen and (max-width: 480px) {
+    .block1 {
+        background-color: #6674E6 ;
+        color: white;
+    }
+    .block2 {
+        background-color: #77CFE3 ;
+        color: white;
+    }
+    .block3 {
+        background-color: #EB6FFF ;
+        color: white;
+    }
+    .block4 {
+        background-color: #2F376D ;
+        color: white;
+    }
+    .dropdown {
+        display: block ;
+    }
+}
+
+
+/*Tablet*/
+@media only screen and (min-width: 480px)
+and (max-width: 1024px){
+    .block1 {
+        background-color: #FF7C80 ;
+        color: white;
+    }
+    .block2 {
+        background-color: #FF5956 ;
+        color: white;
+    }
+    .block3 {
+        background-color: #525CF4 ;
+        color: white;
+    }
+    .block4 {
+        background-color: #344CFF ;
+        color: white;
+    }
 }

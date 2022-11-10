@@ -1,72 +1,3 @@
-/*Telefoon*/
-@media only screen and (max-width: 920px) {
-    nav{
-        flex-direction: column;
-        padding-left: 0 !important;
-    }
-    nav p{
-        padding-left: 4rem !important;
-        text-align: center;
-    }
-    ul{
-        padding: 0 0 1.5rem 0 !important;
-    }
-
-    .two{
-        padding-left: 1rem !important;
-        padding-right: 17rem !important;
-    }
-    .two p{
-        padding: 0 !important;
-    }
-
-    .three{
-        padding-left: 2rem !important;
-    }
-    .three p{
-        padding: 0.5rem 5rem 0 5rem !important;
-    }
-
-
-    .fourdot{
-        width: 70vw !important;
-        height: 45vh !important;
-    }
-    .fourdot p{
-        padding: 0 2rem 0 2rem !important;
-    }
-    .fourdot span{
-        height: 8vh !important;
-        padding-top: 1.2rem !important;
-    }
-    .four{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .five form{
-        width: 95vw !important;
-    }
-    .five input {
-        padding:  1rem 10rem !important;
-    }
-
-    footer {
-        display: flex !important;
-        flex-direction: column !important;
-    }
-    footer p{
-        padding-left: 7rem !important;
-        padding-bottom: 1rem !important;
-    }
-    .footerdot{
-        width: 90vw !important;
-        padding-left: 5rem !important;
-    }
-}
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -269,4 +200,71 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 60vw;
+}
+
+/*Telefoon*/
+@media only screen and (max-width: 920px) {
+    nav{
+        flex-direction: column;
+        padding-left: 0 ;
+    }
+    nav p{
+        padding-left: 4rem ;
+        text-align: center;
+    }
+    ul{
+        padding: 0 0 1.5rem 0 ;
+    }
+
+    .two{
+        padding-left: 1rem ;
+        padding-right: 17rem ;
+    }
+    .two p{
+        padding: 0 ;
+    }
+
+    .three{
+        padding-left: 2rem ;
+    }
+    .three p{
+        padding: 0.5rem 5rem 0 5rem ;
+    }
+
+
+    .fourdot{
+        width: 70vw ;
+        height: 45vh ;
+    }
+    .fourdot p{
+        padding: 0 2rem 0 2rem ;
+    }
+    .fourdot span{
+        height: 8vh ;
+        padding-top: 1.2rem ;
+    }
+    .four{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .five form{
+        width: 95vw ;
+    }
+    .five input {
+        padding:  1rem 10rem ;
+    }
+
+    footer {
+        display: flex ;
+        flex-direction: column ;
+    }
+    footer p{
+        padding-left: 7rem ;
+        padding-bottom: 1rem ;
+    }
+    .footerdot{
+        width: 90vw ;
+        padding-left: 5rem;
+    }
 }
